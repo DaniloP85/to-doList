@@ -18,6 +18,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   final _toDoController = TextEditingController();
   List _toDoList = [];
+  Map<String, dynamic> lastRemoved = Map();
 
   @override
   void initState() {
@@ -29,7 +30,7 @@ class _HomeState extends State<Home> {
     });
   }
 
-  void _addTotDo() {
+  void _addToDo() {
     setState(() {
       Map<String, dynamic> newToDo = Map();
       newToDo["title"] = _toDoController.text;
@@ -61,19 +62,32 @@ class _HomeState extends State<Home> {
   }
 
   Widget buildItem(context, index) {
-    return CheckboxListTile(
-      title: Text(_toDoList[index]["title"]),
-      value: _toDoList[index]["ok"],
-      secondary: CircleAvatar(
-        child: Icon(
-            _toDoList[index]["ok"] ? Icons.check : Icons.error),
+    return Dismissible(
+      key: Key(DateTime.now().millisecondsSinceEpoch.toString()),
+      background: Container(
+        color: Colors.red,
+        child: Align(
+          alignment: Alignment(-0.9, 0.0),
+          child: Icon(
+            Icons.delete,
+            color: Colors.white,
+          ),
+        ),
       ),
-      onChanged: (c) {
-        setState(() {
-          _toDoList[index]["ok"] = c;
-          _saveData();
-        });
-      },
+      direction: DismissDirection.startToEnd,
+      child: CheckboxListTile(
+        title: Text(_toDoList[index]["title"]),
+        value: _toDoList[index]["ok"],
+        secondary: CircleAvatar(
+          child: Icon(_toDoList[index]["ok"] ? Icons.check : Icons.error),
+        ),
+        onChanged: (c) {
+          setState(() {
+            _toDoList[index]["ok"] = c;
+            _saveData();
+          });
+        },
+      ),
     );
   }
 
@@ -103,7 +117,7 @@ class _HomeState extends State<Home> {
                   color: Colors.blueAccent,
                   child: Text("Add"),
                   textColor: Colors.white,
-                  onPressed: _addTotDo,
+                  onPressed: _addToDo,
                 )
               ],
             ),
