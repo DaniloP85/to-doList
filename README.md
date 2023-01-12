@@ -2,7 +2,7 @@
 
 ## Description
 
-Studying a bit of Flutter
+Studying Flutter, following the [udemy course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/)
 
 ## Preview
 
@@ -17,7 +17,6 @@ Studying a bit of Flutter
 2. Open the project in Android Studio or VSCode
 3. [build for web](https://docs.flutter.dev/get-started/web)
 
-[curso-completo-flutter-app-android-ios](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/)
 
 ## Authors
 
