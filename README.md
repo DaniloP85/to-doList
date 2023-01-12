@@ -6,11 +6,11 @@ Studying a bit of Flutter
 
 ## Preview
 
-| Iphone 13 Mini | Pixel 3 |
-| ---- | ---- |  
-| ![.](readme/iphone.13.mini.png) | ![.](readme/pixel.3.png)
+| Iphone 13 Mini | Pixel 3 | Chrome |
+| ---- | ---- |  ---- |
+| ![.](readme/iphone.13.mini.png) | ![.](readme/pixel.3.png) | ![.](readme/chrome.png)
 
-![.](readme/boths.png)
+![.](readme/chrome.iphone.pixel.png)
 
 ## Getting Started
 1. Clone project `git@github.com:DaniloP85/to-doList.git` or  `https://github.com/DaniloP85/to-doList`
