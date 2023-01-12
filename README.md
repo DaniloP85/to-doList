@@ -8,7 +8,7 @@ Studying a bit of Flutter
 
 | Iphone 13 Mini | Pixel 3 |
 | ---- | ---- |  
-| ![.](readme/iphone.13.mini.png) | ![.](readm/pixel.3)
+| ![.](readme/iphone.13.mini.png) | ![.](readm/pixel.3.png)
 
 ![.](readme/boths.png)
 
