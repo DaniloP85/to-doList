@@ -5,7 +5,7 @@
 Studying a bit of Flutter
 
 ## Getting Started
-1. Clone project `git@github.com:DaniloP85/pokedex-25mob.git` or  `https://github.com/DaniloP85/pokedex-25mob.git`
+1. Clone project `git@github.com:DaniloP85/to-doList.git` or  `https://github.com/DaniloP85/to-doList`
 2. Open the project in Android Studio or VSCode
 
 [curso-completo-flutter-app-android-ios](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/)
