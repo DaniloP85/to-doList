@@ -1,16 +1,22 @@
-# listatarefas
+# to-doList
 
-A new Flutter application.
+## Description
+
+Studying a bit of Flutter
 
 ## Getting Started
+1. Clone project `git@github.com:DaniloP85/pokedex-25mob.git` or  `https://github.com/DaniloP85/pokedex-25mob.git`
+2. Open the project in Android Studio or VSCode
 
-This project is a starting point for a Flutter application.
+[curso-completo-flutter-app-android-ios](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/)
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Danilo Santos](https://www.linkedin.com/in/danilopsnts/)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+
+Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+## License
+
+This project is licensed under the MT License - see the [LICENSE](LICENSE.md) file for details
